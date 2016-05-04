@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Cat Clicker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <script src="js/jQuery.js"></script>
+</head>
+
+<body>
+  <div id="image-container">
+  	<p>
+      <canvas id="c" width="640" height="426"></canvas>          
+      <ul id="cat-list">
+      </ul>
+    </p>    
+  </div>
+  <div id="admin-area">
+  	<button type="button">Admin</button>
+  </div>
+  <script src="js/js.js"></script>
+</body>
+</html>
